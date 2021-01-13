@@ -7,11 +7,11 @@ Print out all the numbers that are divisible by 7, that are less than the userâ€
 fun main(args: Array<String>) {
     print("Input a Large integer: ")
     val input = readLine() ?: "100"
-    val largeNum = input.toInt()
-    var num = 0
+    val largeNumber = input.toInt()
+    var number = 0
 
-    while (num < largeNum) {
-        if (num % 7 == 0) println(num)
-        num++
+    while (number < largeNumber) {
+        if (number % 7 == 0) println(number)
+        number++
     }
 }

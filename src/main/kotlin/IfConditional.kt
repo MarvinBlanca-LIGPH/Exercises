@@ -17,12 +17,19 @@ fun main(args: Array<String>) {
     val input = readLine()
     val grade = input?.toInt() ?: 1
 
-    val finalGrade = if (grade >= 90) "A"
-    else if (grade >= 80) "B"
-    else if (grade >= 70) "C"
-    else if (grade >= 60) "D"
-    else if (grade >= 50) "E"
-    else "F"
+    val finalGrade = if (grade >= 90) {
+        "A"
+    } else if (grade >= 80) {
+        "B"
+    } else if (grade >= 70) {
+        "C"
+    } else if (grade >= 60) {
+        "D"
+    } else if (grade >= 50) {
+        "E"
+    } else {
+        "F"
+    }
 
     println("Final Grade is: $finalGrade")
 }

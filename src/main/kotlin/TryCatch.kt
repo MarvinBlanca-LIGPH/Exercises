@@ -13,7 +13,6 @@ What is the total?
 Handle any exceptions that might occur.
  */
 fun main(args: Array<String>) {
-
     val fixPrice = 9.99
 
     print("Please input the product you want to purchase: ")

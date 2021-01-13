@@ -10,19 +10,20 @@ Add the username to the set.
  */
 
 fun main(args: Array<String>) {
-    val usernames = hashSetOf("john", "bob", "alice")
+    val userNames = hashSetOf("john", "bob", "alice")
     var valid = false
 
     do {
         print("Input your desired username: ")
         val name = readLine() ?: ""
-        if (usernames.contains(name)) println("Username already taken, Please try again.")
-        else {
+        if (userNames.contains(name)) {
+            println("Username already taken, Please try again.")
+        } else {
             println("$name is a valid username, Thank you.")
-            usernames.add(name)
+            userNames.add(name)
             valid = true
         }
     } while (!valid)
 
-    println(usernames)
+    println(userNames)
 }

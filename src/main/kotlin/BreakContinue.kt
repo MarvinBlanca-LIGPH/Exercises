@@ -12,7 +12,6 @@ If it receives the word “stop”, the program ends
  */
 
 fun main(args: Array<String>) {
-
     for (i in 1..Int.MAX_VALUE) {
         print("Hi user please input your age: ")
         val input = readLine() ?: "18"
