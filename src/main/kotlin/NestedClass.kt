@@ -11,7 +11,6 @@ fun main(args: Array<String>) {
 }
 
 class Airplane {
-
     private val engine1 = Engine(1000)
     private val engine2 = Engine(1001)
 
